@@ -1,0 +1,9 @@
+application: agileaustralia
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+
+- url: /(speakers|topics)
+  script: agileaustralia.py
